@@ -1,0 +1,72 @@
+{
+  "name": "Rename File",
+  "description": "Rename File ECRF",
+  "main": "ECRF Rename.xaml",
+  "dependencies": {
+    "EpsilonAI.PDFReader.Activities": "[1.0.7725.24146]",
+    "EpsilonAI.PDFWriter.Activities": "[1.0.7725.26668]",
+    "RenameFile.Activities": "[1.0.4]",
+    "RenameMultipleColumnsInDataTable.Activities": "[1.0.0]",
+    "sautinsoft.pdffocus": "[8.0.6.21]",
+    "Spire.PDF": "[7.11.1]",
+    "UiPath.Database.Activities": "[1.4.0]",
+    "UiPath.DataRobot.Activities": "[1.2.0]",
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.IntelligentOCR.Activities": "[5.1.0-preview]",
+    "UiPath.Mail.Activities": "[1.12.2]",
+    "UiPath.PDF.Activities": "[3.4.1]",
+    "UiPath.System.Activities": "[21.10.2]",
+    "UiPath.UIAutomation.Activities": "[21.10.3]",
+    "UiPathTeam.PDF.Extensions.Activities": "[2.4.0]",
+    "UiPathTeam.PDFRedaction.Activities": "[2.0.22]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.3.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": [
+        "Main.xaml"
+      ]
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "ECRF Rename.xaml",
+      "uniqueId": "3c7b8b27-5d82-40a1-9666-c826dd6fcd02",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
